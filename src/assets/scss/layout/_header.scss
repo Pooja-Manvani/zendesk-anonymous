@@ -1,0 +1,29 @@
+// Header area style
+.Wrapper-header-container{
+    background-color: $bottleGreen;
+}
+
+.underline-hover:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+
+.nav-item-position {
+    margin-right: 7rem;
+}
+
+.nav-item-font{
+    font-size: 11px;
+    color: antiquewhite;
+}
+
+.info-container {
+    z-index: 1000;
+    position: absolute;
+    right: .75rem;
+    top: 2.25rem;
+}
+
+.hover-underline-bottom:hover {
+    border-bottom: 2.5px solid white;
+}

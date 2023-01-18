@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Yantramanav:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Yantramanav:wght@100;300;400;500&display=swap');
+
+// Project base and component style import
+@import '../../assets/scss/base/index';
+// Vendor base and component style import
+@import '../../assets/scss/vendor/bootstrap-base';
+@import '../../assets/scss/vendor/bootstrap-components';
+@import '../../assets/scss/component/index';
+// Now other style import
+@import '../../assets/scss/layout/index';
+@import '../../assets/scss/utilities/index';
+// // Project Specific Components
