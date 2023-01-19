@@ -24,6 +24,10 @@
     top: 2.25rem;
 }
 
+.hover-underline-bottom{
+    border-bottom: 2.5px solid transparent; 
+}
+
 .hover-underline-bottom:hover {
     border-bottom: 2.5px solid white;
 }
