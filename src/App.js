@@ -7,7 +7,9 @@ function App() {
     <div className="">
       <div className='Wrapper-header-container '>
         <Header />
-        <HeroSection />
+        <div>
+          <HeroSection  />
+        </div>
       </div>
     </div>
   );

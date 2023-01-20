@@ -42,7 +42,7 @@ export default function Header() {
         </div> }
         {hoverLang &&  <div className='p-4 border text-start bg-white h-25' ><p>Languages</p><p>Languages</p><p>Languages</p><p>Languages</p><p>Languages</p></div> }
           </div>
-        <Nav className='px-5  align-items-center d-flex position-relative text-white'>
+        <Nav className='px-5 p-2 align-items-center d-flex position-relative text-white'>
           <h4 className='cursor-pointer p-0 align-items-center'>Zendesk</h4>
           <div className='d-flex flex-grow-1 justify-content-end align-items-center'>
           <ul className='list-unstyled pt-1 d-flex align-items-center mb-0'>
