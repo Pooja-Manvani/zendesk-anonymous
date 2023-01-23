@@ -1,5 +1,7 @@
 import './App.css';
 import HeroSection from './Components/HeroSection';
+import PromoSection from './Components/PromoSection';
+import TourSection from './Components/TourSection';
 import Header from './Core/Header';
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
           <HeroSection  />
         </div>
       </div>
+      <TourSection/>
+      <PromoSection />
     </div>
   );
 }

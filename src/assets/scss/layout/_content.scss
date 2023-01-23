@@ -1,11 +1,153 @@
 // Style for slider start
 .heroContainer {
     background-color: $bottleGreen;
-    height: 500px;
+    height: 800px;
+}
+@media (min-width: 768px) { 
+    .heroContainer{
+        height: 500px;
+    }
+ }
+
+.text-roller-up::before{
+    content: 'customer';
+    color: $green;
+    margin-bottom: 2.81rem;
+    animation: spinnerUp 5s,
+    colorize 9s 5s;
 }
 
-.font-slider {
-    height: 4.875rem;
-    width: 10rem;
-    overflow: hidden;
-  }
+@keyframes spinnerUp {
+    0%{
+        content: 'customer';
+        color: $green;
+        margin-top: 0;
+    }
+    15%{
+        content: 'no-hassle ';
+        color: $green;
+        margin-top: 0;
+    }
+    30%{
+        content: 'not waiting on ';
+        color: $Yellow;
+        margin-top: -5rem;
+    }
+    45%{
+        content: 'social ';
+        color: $transWhite;
+        margin-top: -10rem;
+    }
+    60%{
+        content: 'extra sauce  ';
+        color: $kesariya;
+        margin-top: -10rem;
+    }
+    75%{
+        content: 'actually having ';
+        color: $messBlue;
+        margin-top: -5rem;
+    }
+    100% {
+        content: 'customer';
+        color: $green;
+        margin-top: 0;
+    }
+}
+
+.text-champions::before{
+  content: 'Champions';
+  color: $pink;
+  animation: color-change 6s,
+  colorize 5s 8s;
+}
+
+.text-of::before{
+  content: 'of';
+  color: $PeaLight ;
+  animation: color-change 6s,
+  colorize 4s 6s;
+}
+
+@keyframes color-change {
+    15% {
+        color: white;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: white;
+    }
+}
+
+@keyframes colorize {
+    0%{
+        color: $green;
+    }
+    25%{
+        color: $Yellow;
+    }
+    50%{
+        color: $transWhite;
+    }
+    75%{
+        color: $kesariya;
+    }
+    100%{
+        color: $messBlue;
+    }
+}
+
+.text-roller-down::before{
+    content: 'service';
+    color: $messBlue;
+    animation: spinnerDown 5s,
+    colorize 7s 6s;
+}
+
+@keyframes spinnerDown {
+    0%{
+        content: 'service';
+        color: $messBlue;
+    }
+    15%{
+        content: 'returns ';
+        color: $green;
+    }
+    30%{
+        content: 'hold forever';
+        color: $Yellow;
+    }
+    45%{
+        content: 'messaging ';
+        color: $transWhite;
+    }
+    60%{
+        content: 'on the side ';
+        color: $kesariya;
+    }
+    75%{
+        content: 'a nice day ';
+        color: $messBlue;
+    }
+    100% {
+        content: 'service';
+        color: $messBlue;
+    }
+}
+
+.tour-wrapper {
+    background-color: $secondaryBg ;
+    height: 765px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.homeBug-img{
+    filter: brightness(.7);
+}
+
+.promo-wrapper{
+    height: 500px;
+}

@@ -1,6 +1,46 @@
 // Typographical styles goes here
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-.hero-title-font{
-    font-size: 4.875rem;
+.text-bottleGreen{
+    color: $bottleGreen;
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .hero-title-font{
+        font-size: 1.875rem;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .hero-title-font{
+        font-size: 2.5rem;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .hero-title-font{
+        font-size: 3.5rem;
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .hero-title-font{
+        font-size: 3.875rem;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+    .hero-title-font{
+        font-size: 4.875rem;
+    }    
+ }
+
+ .tour-title-font{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: $fontDrak;
+ }

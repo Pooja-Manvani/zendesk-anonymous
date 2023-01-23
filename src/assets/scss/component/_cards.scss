@@ -1,1 +1,16 @@
 // Card styles goes here
+.tour-info-card {
+    position: absolute;
+    z-index: 220;
+    top:5.85rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#person-msg-card:hover{
+    .btn-dark-outline{
+        background-color: #06615a;
+        color: white;
+    }
+}

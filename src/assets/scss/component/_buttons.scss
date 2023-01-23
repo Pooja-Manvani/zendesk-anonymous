@@ -8,3 +8,14 @@
     color: #ece0ce;
     border-color: #ece0ce;
 }
+
+.btn-dark-outline{
+    border-color: $bottleGreen;
+    color: $bottleGreen;
+    background-color: white;
+}
+
+.btn-dark-outline:hover{
+    background-color: #06615a;
+    color: white;
+}

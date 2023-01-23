@@ -20,7 +20,7 @@ export default function Header() {
     setHoverLang(false)
   }
   return (
-    <div className='container d-flex flex-column px-lg-5 position-relative'>
+    <div className='container d-lg-flex d-none flex-column px-lg-5 position-relative'>
         <Nav className='flex-grow-1 px-5' >
             <ul className='d-flex justify-content-end pt-2' >
             <li className='list-unstyled px-1 underline-hover nav-item-font cursor-pointer '  >Sign in</li> 
