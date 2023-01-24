@@ -1,0 +1,23 @@
+{"PromoCard": [
+    {
+        "id": 1,
+        "title": "CX TRENDS 2023",
+        "subtitle": "What’s shaping CX today",
+        "detail": "Immersive customer experience is in. Dive into our latest research and learn how to get an edge in 2023.",
+        "linktext": "Get the report"
+    },
+    {
+        "id": 2,
+        "title": "REV UP YOUR ROI",
+        "subtitle": "Evaluate the ROI of Zendesk",
+        "detail": "We commissioned Forrester Consulting to conduct a Total Economic Impact™ (TEI) study to examine the ROI of deploying Zendesk.",
+        "linktext": "Download now"
+    },
+    {
+        "id": 3,
+        "title": "FEATURE UPDATES",
+        "subtitle": "This is What’s New",
+        "detail": "Get this quarter's announcements, plus a recap of 2022's biggest product hits.",
+        "linktext": "Learn more"
+    }
+] }

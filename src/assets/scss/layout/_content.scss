@@ -10,11 +10,9 @@
  }
 
  .text-roller-up {
-    // content: 'customer';
     color: $green;
-    // margin-bottom: 2.81rem;
-    // height: 80px;
-    height: 100px;
+    // margin-bottom: 1.81rem;
+    height: 80px;
     overflow: hidden;
     display: inline-block;
     display: flex;
@@ -22,12 +20,11 @@
 }
 
 .text-roller-up > span{
-    // height: 6rem;
     display: inline-block;
     margin-top: 0;
 }
 
-.text-roller-up span:first-child {
+.text-roller-up :first-child{
     position: relative;
     animation: spinnerUp 6s;
     height: 100%;
@@ -42,8 +39,9 @@
         top: 100%;
         left: 0;
         height: 3px;
-        width: 100%;
         background-color: white;
+        transition: ease-in-out;
+        animation: spinnerBorder 6s;
     }
 }
 
@@ -51,37 +49,37 @@
     0% {
         // content: 'customer';
         color: $green;
-        margin-top: 0;
+        margin-top: .75rem;
     }
 
     15% {
-        // content: 'not waiting on ';
+        // content: 'no-hassle';
         color: $green;
-        margin-top: -95px;
+        margin-top: -85px;
     }
 
     30% {
-        // content: 'social ';
+        // content: 'not waiting on';
         color: $Yellow;
-        margin-top: -190px;
+        margin-top: -180px;
     }
 
     50% {
-        // content: 'extra sauce  ';
+        // content: 'social';
         color: $transWhite;
-        margin-top: -285px;
+        margin-top: -275px;
     }
 
     70% {
-        // content: 'actually having ';
+        // content: 'extra sauce';
         color: $kesariya;
-        margin-top: -380px;
+        margin-top: -370px;
     }
 
     85% {
         // content: 'actually having ';
         color: $messBlue;
-        margin-top: -475px;
+        margin-top: -465px;
     }
 
     100% {
@@ -91,6 +89,43 @@
     }
 }
 
+@keyframes spinnerBorder {
+    0% {
+        // content: 'customer';
+        width: 329x;
+    }
+
+    15% {
+        // content: 'not waiting on ';
+        width: 338px;
+    }
+
+    30% {
+        // content: 'social ';
+        width: 516px;
+    }
+
+    50% {
+        // content: 'extra sauce  ';
+        width: 198px;
+    }
+
+    70% {
+        // content: 'actually having ';
+        width: 397px;
+    }
+
+    85% {
+        // content: 'actually having ';
+        width: 532px;
+    }
+
+    100% {
+        // content: 'customer';
+        color: $green;
+        margin-top: 0;
+    }
+}
 
 .text-champions::before{
   content: 'Champions';

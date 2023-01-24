@@ -1,6 +1,8 @@
 import React from "react";
+import { useRef } from "react";
 
 export default function HeroSection() {
+  
   return (
     <div className="heroContainer container-xl p-5 ">
       <div className="row d-flex text-white">
@@ -44,11 +46,10 @@ export default function HeroSection() {
                       <span>actually having </span>
                     </span>
                   </span>
-                  <div className="content-border"></div>
+            
                 </h1>
               </div>
             </div>
-
             <div>
               <h1 className="hero-title-font border-bottom-3 border-white">
                 <span className=" text-roller-up">
