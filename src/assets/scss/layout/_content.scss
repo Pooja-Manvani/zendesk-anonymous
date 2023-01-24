@@ -9,51 +9,88 @@
     }
  }
 
-.text-roller-up::before{
-    content: 'customer';
+ .text-roller-up {
+    // content: 'customer';
     color: $green;
-    margin-bottom: 2.81rem;
-    animation: spinnerUp 5s,
-    colorize 9s 5s;
+    // margin-bottom: 2.81rem;
+    // height: 80px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-roller-up > span{
+    // height: 6rem;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.text-roller-up span:first-child {
+    position: relative;
+    animation: spinnerUp 6s;
+    height: 100%;
+    display: inline-block;
+}
+
+.content-border  {
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background-color: white;
+    }
 }
 
 @keyframes spinnerUp {
-    0%{
-        content: 'customer';
+    0% {
+        // content: 'customer';
         color: $green;
         margin-top: 0;
     }
-    15%{
-        content: 'no-hassle ';
+
+    15% {
+        // content: 'not waiting on ';
         color: $green;
-        margin-top: 0;
+        margin-top: -95px;
     }
-    30%{
-        content: 'not waiting on ';
+
+    30% {
+        // content: 'social ';
         color: $Yellow;
-        margin-top: -5rem;
+        margin-top: -190px;
     }
-    45%{
-        content: 'social ';
+
+    50% {
+        // content: 'extra sauce  ';
         color: $transWhite;
-        margin-top: -10rem;
+        margin-top: -285px;
     }
-    60%{
-        content: 'extra sauce  ';
+
+    70% {
+        // content: 'actually having ';
         color: $kesariya;
-        margin-top: -10rem;
+        margin-top: -380px;
     }
-    75%{
-        content: 'actually having ';
+
+    85% {
+        // content: 'actually having ';
         color: $messBlue;
-        margin-top: -5rem;
+        margin-top: -475px;
     }
+
     100% {
-        content: 'customer';
+        // content: 'customer';
         color: $green;
         margin-top: 0;
     }
 }
+
 
 .text-champions::before{
   content: 'Champions';
@@ -99,43 +136,43 @@
     }
 }
 
-.text-roller-down::before{
-    content: 'service';
-    color: $messBlue;
-    animation: spinnerDown 5s,
-    colorize 7s 6s;
-}
+// .text-roller-down::before{
+//     content: 'service';
+//     color: $messBlue;
+//     animation: spinnerDown 5s,
+//     colorize 7s 6s;
+// }
 
-@keyframes spinnerDown {
-    0%{
-        content: 'service';
-        color: $messBlue;
-    }
-    15%{
-        content: 'returns ';
-        color: $green;
-    }
-    30%{
-        content: 'hold forever';
-        color: $Yellow;
-    }
-    45%{
-        content: 'messaging ';
-        color: $transWhite;
-    }
-    60%{
-        content: 'on the side ';
-        color: $kesariya;
-    }
-    75%{
-        content: 'a nice day ';
-        color: $messBlue;
-    }
-    100% {
-        content: 'service';
-        color: $messBlue;
-    }
-}
+// @keyframes spinnerDown {
+//     0%{
+//         content: 'service';
+//         color: $messBlue;
+//     }
+//     15%{
+//         content: 'returns ';
+//         color: $green;
+//     }
+//     30%{
+//         content: 'hold forever';
+//         color: $Yellow;
+//     }
+//     45%{
+//         content: 'messaging ';
+//         color: $transWhite;
+//     }
+//     60%{
+//         content: 'on the side ';
+//         color: $kesariya;
+//     }
+//     75%{
+//         content: 'a nice day ';
+//         color: $messBlue;
+//     }
+//     100% {
+//         content: 'service';
+//         color: $messBlue;
+//     }
+// }
 
 .tour-wrapper {
     background-color: $secondaryBg ;
