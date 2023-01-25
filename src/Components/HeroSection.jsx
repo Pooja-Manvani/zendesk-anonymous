@@ -1,11 +1,10 @@
 import React from "react";
-import { useRef } from "react";
 
 export default function HeroSection() {
   
   return (
     <div className="heroContainer container-xl p-5 ">
-      <div className="row d-flex text-white">
+      <div className="row pt-5 d-flex text-white">
         <div className="p-2 p-lg-5 py-lg-0 col-12 col-lg-7 align-self-center flex-grow-1">
           <h1 className="hero-title-font">
             <span className="text-champions"></span>

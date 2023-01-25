@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Nav } from 'react-bootstrap'
 
-export default function Header() {
+export default function Header(props) {
+  console.log(props)
                                      
   const [hoverCompany,setHoverCompany] = useState(false);                                  
   const [hoverLang,setHoverLang] = useState(false);                  
@@ -19,8 +20,10 @@ export default function Header() {
   const handleLangLeave = () => {
     setHoverLang(false)
   }
+  const wapperHeader = `wrapper-header ${props.scrollClass}`
   return (
-    <div className='container d-lg-flex d-none flex-column px-lg-5 position-relative'>
+    <div className={wapperHeader}>
+    <div className=' container d-lg-flex d-none flex-column px-lg-5 position-relative'>
         <Nav className='flex-grow-1 px-5' >
             <ul className='d-flex justify-content-end pt-2' >
             <li className='list-unstyled px-1 underline-hover nav-item-font cursor-pointer '  >Sign in</li> 
@@ -56,6 +59,7 @@ export default function Header() {
           <button className='btn-custom-outline btn btn-outline-light rounded-0 px-4 py-2 fw-bold border border-2 ' >Buy now</button>
             </div> 
         </Nav>
+    </div>
     </div>
   )
 }

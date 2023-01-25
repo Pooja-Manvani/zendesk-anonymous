@@ -31,3 +31,20 @@
 .hover-underline-bottom:hover {
     border-bottom: 2.5px solid white;
 }
+
+.wrapper-header {
+    padding: 10px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 100;
+    color: black;
+    width: 100%;
+    transition: all .3s;
+  }
+
+  .showHeader {
+    background: white;
+    text-decoration-color: $bottleGreen;
+    box-shadow: 20px -1px 10px 3px #adadad;
+    
+  }
