@@ -1,23 +1,50 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import { getPromoCard } from "../Service/Axios.jsx";
+import superImg from "../assets/images/Star.webp";
 
 export default function PromoCard() {
-  return (
-    <div className='Promo-Card-container p-4 d-flex flex-column justify-content-between border-2 border-bottom border-success'>
-        <div>
-        <div className='pb-4'>
-            <h6 className='fw-bold text-bottleGreen'>Cx TRENDS 2023</h6>
-            <h4 className='fw-bold text-bottleGreen'>What's shaping CX today</h4>
-        </div>
-        <div className='pb-4'>
-            <p>
-            Immersive customer experience is in. Dive into our latest research and learn how to get an edge in 2023.
-            </p>
-        </div>
-        </div>
+  const [PromoData, setPromoData] = useState([]);
+  useEffect(() => {
+    getPromoData();
+  }, []);
+  const getPromoData = async () => {
+    const response = await getPromoCard();
+    return setPromoData(response.data);
+  };
 
-        <div className='py-3'>
-            <a className='text-bottleGreen fw-bold'>Get the Report</a><span></span>
+  return PromoData.map((data, i) => (
+    <div
+      key={data.id}
+      className={
+        "Promo-Card-container m-3 p-4 d-flex flex-column justify-content-between position-relative" +' '+ (data.id === 1 ? 'box-green': data.id === 2 ? 'box-blue' : 'box-orange')
+      }
+    >
+      <div>
+        <div className="pb-4">
+          <h6 className="fw-bold text-bottleGreen overflow-hidden text-truncate">
+            {" "}
+            {data.title}{" "}
+          </h6>
+          <h4 className="fw-bold text-bottleGreen overflow-hidden text-wrap">
+            {" "}
+            {data.subtitle}{" "}
+          </h4>
         </div>
+        <div className="pb-4">
+          <p className="small overflow-hidden text-wrap">{data.detail}</p>
+        </div>
+      </div>
+
+      <div className="py-3 text-align-end">
+        <a className="text-bottleGreen fw-bold overflow-hidden text-truncate">
+          {" "}
+          {data.linktext}{" "}
+        </a>
+        <span></span>
+      </div>
+      {data.id === 3 && (
+        <img src={superImg} alt="" className="promo-sticker"></img>
+      )}
     </div>
-  )
+  ));
 }

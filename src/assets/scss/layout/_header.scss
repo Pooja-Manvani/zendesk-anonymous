@@ -42,9 +42,38 @@
     transition: all .3s;
   }
 
+  .nav {
+    color: white; 
+} 
+
   .showHeader {
     background: white;
-    text-decoration-color: $bottleGreen;
     box-shadow: 20px -1px 10px 3px #adadad;
-    
+    .nav-item-font{
+        color: $bottleGreen;
+    }
+    .nav {
+        color: $bottleGreen; 
+    }
+    .sub-nav {
+        display: none;
+    }
+  }
+
+
+  .main-block {
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .fixedTop {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: transparent;
+}
+
+.fixedTop + .main-block {
+    background-color: whitesmoke;
+    box-shadow: 20px -1px 10px 3px #adadad;
   }

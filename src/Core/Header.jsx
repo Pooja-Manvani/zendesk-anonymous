@@ -20,11 +20,11 @@ export default function Header(props) {
   const handleLangLeave = () => {
     setHoverLang(false)
   }
-  const wapperHeader = `wrapper-header ${props.scrollClass}`
+  const wapperHeader = `wrapper-header + ${props.showHeader}`
   return (
-    <div className={wapperHeader}>
+    <div className={wapperHeader} >
     <div className=' container d-lg-flex d-none flex-column px-lg-5 position-relative'>
-        <Nav className='flex-grow-1 px-5' >
+        <Nav className='sub-nav flex-grow-1 px-5' >
             <ul className='d-flex justify-content-end pt-2' >
             <li className='list-unstyled px-1 underline-hover nav-item-font cursor-pointer '  >Sign in</li> 
                 
@@ -45,7 +45,7 @@ export default function Header(props) {
         </div> }
         {hoverLang &&  <div className='p-4 border text-start bg-white h-25' ><p>Languages</p><p>Languages</p><p>Languages</p><p>Languages</p><p>Languages</p></div> }
           </div>
-        <Nav className='px-5 p-2 align-items-center d-flex position-relative text-white'>
+        <Nav className='px-5 p-2 align-items-center d-flex position-relative '>
           <h4 className='cursor-pointer p-0 align-items-center'>Zendesk</h4>
           <div className='d-flex flex-grow-1 justify-content-end align-items-center'>
           <ul className='list-unstyled pt-1 d-flex align-items-center mb-0'>
@@ -55,8 +55,8 @@ export default function Header(props) {
             <li className=' hover-underline-bottom mx-4 cursor-pointer py-2'><h6>Demo</h6></li>
             <li className=' hover-underline-bottom mx-4 cursor-pointer py-2'><h6>Resources</h6></li>
           </ul>
-          <button className='btn-background btn btn-outline-light mx-4 px-4 py-2 rounded-0 fw-bold border border-2' >Free Trial</button>
-          <button className='btn-custom-outline btn btn-outline-light rounded-0 px-4 py-2 fw-bold border border-2 ' >Buy now</button>
+          <button className='btn-background btn  mx-4 px-4 py-2 rounded-0 fw-bold' >Free Trial</button>
+          <button className='btn-custom-outline btn rounded-0 px-4 py-2 fw-bold  ' >Buy now</button>
             </div> 
         </Nav>
     </div>

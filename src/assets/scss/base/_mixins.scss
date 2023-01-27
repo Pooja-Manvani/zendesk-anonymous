@@ -1,1 +1,15 @@
 // All the SCSS mixins goes here
+// $borderMixins: ("green", #008000, "blue", #0000ff, "orange", #fca644);
+
+
+$borderMixins: (
+    'green': $green,
+    'blue': $messBlue,
+    'orange': $kesariya
+);
+
+@each $key, $value in $borderMixins {
+  .box-#{$key} {
+    border-bottom: 2px solid $value;
+  }
+}

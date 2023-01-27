@@ -1,12 +1,20 @@
 // Button styles goes here
 .btn-background {
-    background-color: #ece0ce;
     color: $bottleGreen;
+    background-color: #ece0ce;
+    border: 2px solid $bottleGreen;
+}
+.btn-background:hover {
+    border: 2px solid whitesmoke;
 }
 
 .btn-custom-outline{
     color: #ece0ce;
-    border-color: #ece0ce;
+    border: 2px solid #ece0ce ;
+}
+.btn-custom-outline:hover{
+    background-color: white;
+    color: $bottleGreen;
 }
 
 .btn-dark-outline{
@@ -18,4 +26,24 @@
 .btn-dark-outline:hover{
     background-color: #06615a;
     color: white;
+}
+
+.showHeader{
+    .btn-background {
+        background-color: $bottleGreen;
+        color: whitesmoke;
+    }
+    .btn-background:hover {
+        background-color: whitesmoke;
+        color: $bottleGreen;
+        border: 2px solid $bottleGreen
+    }
+    .btn-custom-outline{
+        color: $bottleGreen;
+        border: 2px solid $bottleGreen;
+    }
+    .btn-custom-outline:hover{
+        color: whitesmoke;
+        background-color: $bottleGreen;
+    }
 }
