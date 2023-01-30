@@ -4,6 +4,10 @@
     color: $bottleGreen;
 }
 
+.text-darker{
+    color: $fontDrak;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     .hero-title-font{
@@ -39,8 +43,35 @@
     }    
  }
 
- .tour-title-font{
+ .title-font{
     font-size: 2.75rem;
     font-weight: 700;
     color: $fontDrak;
  }
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: $fontDrak;
+    color: white;
+    font-size: small;
+    padding-left: 2px;
+}
+
+.icon-container:hover {
+    background-color: $bottleGreen;
+}
+
+.text-link:hover {
+    color: $bottleGreen;
+    opacity: 97%;
+}
+
+.logo-company {
+    height: 60px;
+    // width: 200px;
+}

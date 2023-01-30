@@ -220,6 +220,30 @@
     filter: brightness(.7);
 }
 
-.promo-wrapper{
-    height: 500px;
+// .promo-wrapper{
+//     height: 500px;
+// }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.title-wrapper{
+    width: 628px;
+    padding: .75rem;
+}
+
+.upper-image-usecase{
+    z-index: 10;
+    position: absolute;
+    top: 455px;
+    left: -65px;
+}
+
+.info-border-left {
+    border-left: 2px solid lightgray;
 }

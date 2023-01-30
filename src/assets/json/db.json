@@ -20,4 +20,43 @@
         "detail": "Get this quarter's announcements, plus a recap of 2022's biggest product hits.",
         "linktext": "Learn more"
     }
-] }
+],
+
+"ServiceCase": [
+    {
+        "BGimage": "photo-service.webp",
+        "upperimage": "screen-service.webp",
+        "title": "Give customers the best support",
+        "detail": "Customers want to connect any time, any place. Meet them where they are with the Zendesk Suite, which provides sophisticated, seamless support that flows across channels.",
+        "logo": "Starlinglogo.png",
+        "info": "Wherever our customers are, Starling is there to support them, and it’s all managed by Zendesk.",
+        "author": "Patrick Vardhan",
+        "post": "Head of Customer Service, Starling Bank"
+    }
+],
+"SalesCase": [
+    {
+        "BGimage": "photo-sales.webp",
+        "upperimage": "screen-sales-2.png",
+        "title": "Win prospects over",
+        "detail": "Prospects and customers want a seamless experience, no matter where they are in their buying journey. Deliver meaningful conversations that drive more qualified leads and close more deals with Zendesk Sell.",
+        "logo": "logo-upstack.png",
+        "info": "Our customers get a better experience because there are no silos of information, and that is resulted ultimately in more revenue and more deals closing.",
+        "author": "Yossi Mlynsky",
+        "post": "CEO at Upstack"
+    }
+],
+"ExperienceCase": [
+    {
+        "BGimage": "photo-employee-experience.webp",
+        "upperimage": "screen-employee-experience.webp",
+        "title": "Get employees answers",
+        "detail": "Free up your team’s time to focus on the important things and help employees get answers fast. Our help desk solution simplifies support and makes information sharing easy.",
+        "logo": "logo-homebridge.svg",
+        "info": "People kept using it and kept giving raving, positive reviews—everyone from the account executives, brokers and the B2B partners they supported...It was a good fit, so we started bringing in other groups to Zendesk.",
+        "author": "Ben Chapman",
+        "post": "Director of Client-Facing Experience and Analytics at Homebridge"
+    }
+]
+
+}

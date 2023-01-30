@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // Styles Imports.
 import '../src/assets/scss/styles.scss'
+// import icons styles
+import '../src/assets/icons/style.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -12,7 +12,7 @@ export default function PromoCard() {
     return setPromoData(response.data);
   };
 
-  return PromoData.map((data, i) => (
+  return PromoData.map((data) => (
     <div
       key={data.id}
       className={
@@ -30,17 +30,17 @@ export default function PromoCard() {
             {data.subtitle}{" "}
           </h4>
         </div>
-        <div className="pb-4">
+        <div className="pb-2">
           <p className="small overflow-hidden text-wrap">{data.detail}</p>
         </div>
       </div>
 
-      <div className="py-3 text-align-end">
-        <a className="text-bottleGreen fw-bold overflow-hidden text-truncate">
+      <div className="py-3">
+        <a className="card-item text-bottleGreen fw-bold overflow-hidden text-truncate">
           {" "}
           {data.linktext}{" "}
         </a>
-        <span></span>
+        <span className="fw-lighter icon-arrow-right" ></span>
       </div>
       {data.id === 3 && (
         <img src={superImg} alt="" className="promo-sticker"></img>

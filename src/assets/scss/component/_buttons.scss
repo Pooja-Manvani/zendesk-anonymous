@@ -47,3 +47,15 @@
         background-color: $bottleGreen;
     }
 }
+
+
+.nav-item {
+    border-bottom: 2px solid transparent;
+}
+.nav-item:hover {
+    border-bottom: 2px solid $fontDrak;
+}
+
+.nav-border {
+    border-bottom: 2px solid $fontDrak;
+}

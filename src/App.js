@@ -1,8 +1,9 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './App.css';
 import HeroSection from './Components/HeroSection';
 import PromoSection from './Components/PromoSection';
 import TourSection from './Components/TourSection';
+import UseCaseSection from './Components/UseCaseSection';
 import Header from './Core/Header';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       </div>
       <TourSection/>
       <PromoSection />
+      <UseCaseSection />
     </div>
   );
 }

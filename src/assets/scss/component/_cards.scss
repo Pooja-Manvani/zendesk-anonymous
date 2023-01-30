@@ -28,3 +28,32 @@
     height: 110px;
     width: 110px;
 }
+
+.card-item:hover {
+    color: $bottleGreen;
+    margin-right: 1rem;
+}
+.card-item {
+    color: $bottleGreen;
+    margin-right: .5rem;
+}
+
+.icon-arrow-right{
+    color: $bottleGreen;
+    height: 6px;
+    width: 8px;
+    font-weight: lighter;
+}
+
+.icon-arrow-right:hover{
+    color: $bottleGreen;
+    margin-left: .75rem;
+}
+
+// .lower-img-container {
+//     transition: height 4s;
+//     height: 50%;
+//     position: absolute;
+//     bottom: 0;
+// }
+//  .lower-img-container:
