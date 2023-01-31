@@ -6,25 +6,36 @@ import { useEffect } from 'react';
 
 export default function UseCaseSection() {
     const [UseCase, setUseCase] = useState([]);
-    const [isActive, setActive] = useState(false);
+    const [activeSales, setSales] = useState(Boolean);
+    const [activeService, setService] = useState(Boolean);
+    const [activeExperience, setExperience] = useState(Boolean);
     useEffect(() => {
         getService();
-        getSales();
-        getExperience();
+        // getSales();
+        // getExperience();
     }, []);
     const getService = async () => {
-        
+        setService(true);
+        setSales(false);
+        setExperience(false);
         const response = await getServiceCase();
         return setUseCase(response.data);
     }
     const getSales = async () => {
+        setSales(true);
+        setExperience(false);
+        setService(false);
         const response = await getSalesCase();
         return setUseCase(response.data);
     }
     const getExperience = async () => {
+        setExperience(true);
+        setSales(false);
+        setService(false);
         const response = await getExperienceCase();
         return setUseCase(response.data);
     }
+   
   return (
     <div className='wrapper text-center flex-column'>
         <div className='title-wrapper '>
@@ -32,9 +43,9 @@ export default function UseCaseSection() {
             <h5 className='text-bottleGreen'>To make customers happy, you need conversational experiences—connected communication across any channel.</h5>
             <nav className=''>
                 <ul className='list-unstyled d-flex justify-content-center'>
-                    <li  className='nav-item p-3 mx-2 fw-bold text-darker' onClick={getService} >SERVICE</li>
-                    <li className='nav-item  p-3 mx-2 fw-bold text-darker' onClick={getSales} >SALES</li>
-                    <li className='nav-item  p-3 mx-2 fw-bold text-darker' onClick={getExperience} >EMPLOYEE EXPERIENCE</li>
+                    <li  className={"nav-item p-3 mx-2 fw-bold text-darker" +' '+(activeService && 'nav-border')}  onClick={getService} >SERVICE</li>
+                    <li className={"nav-item p-3 mx-2 fw-bold text-darker" +' '+(activeSales && 'nav-border')}  onClick={getSales} >SALES</li>
+                    <li className={"nav-item p-3 mx-2 fw-bold text-darker" +' '+(activeExperience && 'nav-border')}  onClick={getExperience} >EMPLOYEE EXPERIENCE</li>
                 </ul>
             </nav>
         </div>

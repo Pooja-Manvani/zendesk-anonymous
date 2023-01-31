@@ -240,10 +240,34 @@
 .upper-image-usecase{
     z-index: 10;
     position: absolute;
-    top: 455px;
-    left: -65px;
+    top: 445px;
+    left: -80px;
 }
 
 .info-border-left {
     border-left: 2px solid lightgray;
+}
+
+.platform-container{
+    margin-top: 12rem;
+    margin-bottom: 3rem;
+}
+
+.gartner-container{
+    background-color: $skyblue;
+    padding: 1.75rem;
+    text-align: center;
+    width: 1104px;
+}
+
+.gartner-logo{
+    height: 42px;
+}
+
+.article-container{
+    width: 1104px;
+}
+
+.inner-container{
+    width: 1104px;
 }

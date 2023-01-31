@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
+import ArticleSection from './Components/ArticleSection';
+import CustomerExperienceSection from './Components/CustomerExperienceSection';
 import HeroSection from './Components/HeroSection';
 import PromoSection from './Components/PromoSection';
+import SelectPlatformSection from './Components/SelectPlatformSection';
 import TourSection from './Components/TourSection';
 import UseCaseSection from './Components/UseCaseSection';
 import Header from './Core/Header';
@@ -39,6 +42,9 @@ function App() {
       <TourSection/>
       <PromoSection />
       <UseCaseSection />
+      <SelectPlatformSection />
+      <ArticleSection />
+      <CustomerExperienceSection />
     </div>
   );
 }
