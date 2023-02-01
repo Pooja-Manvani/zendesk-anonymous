@@ -271,3 +271,36 @@
 .inner-container{
     width: 1104px;
 }
+
+.info-conatiner{
+    width: 400px;
+}
+
+.experience-container{
+    height: 618px;
+    padding-top: 5rem;
+}
+
+.link-container{
+    margin-top: 5rem;
+    padding-top: 5rem;
+    border-top: 2px solid lightgray;
+    width: 1104px;
+}
+
+.footer-inner-container{
+    background: $skyblue;
+    color: $bottleGreen;
+}
+
+.service-link-text{
+    font-size: small;
+    color: $bottleGreen;
+    opacity: 95%;
+}
+.service-link-text:hover{
+    border-bottom: 1px solid $bottleGreen;
+    color: $bottleGreen;
+    opacity: 80%;
+    cursor: pointer;
+}

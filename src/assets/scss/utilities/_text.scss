@@ -66,9 +66,17 @@
     background-color: $bottleGreen;
 }
 
+.icon-color{
+    color: gray;
+}
+
+.icon-color:hover{
+    color: $bottleGreen;
+}
+
 .text-link:hover {
     color: $bottleGreen;
-    opacity: 97%;
+    opacity: 90%;
 }
 
 .logo-company {

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import './App.css';
 import ArticleSection from './Components/ArticleSection';
 import CustomerExperienceSection from './Components/CustomerExperienceSection';
+import GlobalFooter from './Components/GlobalFooter';
 import HeroSection from './Components/HeroSection';
 import PromoSection from './Components/PromoSection';
 import SelectPlatformSection from './Components/SelectPlatformSection';
@@ -45,6 +46,7 @@ function App() {
       <SelectPlatformSection />
       <ArticleSection />
       <CustomerExperienceSection />
+      <GlobalFooter />
     </div>
   );
 }

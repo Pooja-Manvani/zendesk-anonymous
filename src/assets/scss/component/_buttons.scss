@@ -28,6 +28,25 @@
     color: white;
 }
 
+.btn-dark-bg{
+    background-color: $bottleGreen;
+    color: whitesmoke;
+    border: 2px solid $bottleGreen
+}
+.btn-dark-bg:hover{
+    background-color:  #06615a;
+    color: whitesmoke;
+}
+.btn-dark-outline{
+    color: $bottleGreen;
+    background-color: $skyblue;
+    border: 2px solid $bottleGreen;
+}
+.btn-dark-outline:hover{
+    color: whitesmoke;
+    background-color: $bottleGreen;
+}
+
 .showHeader{
     .btn-background {
         background-color: $bottleGreen;
@@ -47,6 +66,7 @@
         background-color: $bottleGreen;
     }
 }
+
 
 
 .nav-item {
