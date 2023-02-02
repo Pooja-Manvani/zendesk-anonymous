@@ -2,7 +2,7 @@
 .btn-background {
     color: $bottleGreen;
     background-color: #ece0ce;
-    border: 2px solid $bottleGreen;
+    border: 2px solid #ece0ce;
 }
 .btn-background:hover {
     border: 2px solid whitesmoke;
@@ -24,6 +24,7 @@
 }
 
 .btn-dark-outline:hover{
+    border-color: $bottleGreen;
     background-color: #06615a;
     color: white;
 }
@@ -49,6 +50,7 @@
 
 .showHeader{
     .btn-background {
+        border: 2px solid $bottleGreen;
         background-color: $bottleGreen;
         color: whitesmoke;
     }
@@ -78,4 +80,35 @@
 
 .nav-border {
     border-bottom: 2px solid $fontDrak;
+}
+
+.content-box-hover:hover{
+    border-left: 3px solid $bottleGreen;
+    box-shadow: 1.5px 1.5px 5px 1.5px #e2e0e0;
+    border-radius: 3px;
+}
+.content-box-hover{
+    border-left: 3px solid transparent;
+}
+
+.float-button-container{
+    position: sticky;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.float-button{
+    background-color: $bottleGreen;
+    border-color: $bottleGreen;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.float-button:hover{
+    background-color: #06615a;
 }

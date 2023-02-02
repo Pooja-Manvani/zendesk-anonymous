@@ -35,12 +35,12 @@ export default function PromoCard() {
         </div>
       </div>
 
-      <div className="py-3">
-        <a className="card-item text-bottleGreen fw-bold overflow-hidden text-truncate">
+      <div className="py-xl-3">
+        <a className="card-item text-bottleGreen fw-bold overflow-hidden text-truncate cursor-pointer">
           {" "}
           {data.linktext}{" "}
         </a>
-        <span className="fw-lighter icon-arrow-right" ></span>
+        <span className="fw-lighter icon-arrow-right cursor-pointer" ></span>
       </div>
       {data.id === 3 && (
         <img src={superImg} alt="" className="promo-sticker"></img>

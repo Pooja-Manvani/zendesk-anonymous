@@ -14,9 +14,9 @@ export default function ArticleSection() {
         {/* Article section */}
         <div className='article-container d-flex py-5 mx-5'>
             <div className='my-5 pt-4 me-5 ps-1'>
-                <div className='position-relative'>
+                <div className='position-relative '>
                     <img src={Clip} alt='Clip' className='clip-img'></img>
-                    <div className='clip-icon-container'><span className='icon-play3'></span></div>
+                    <div className='clip-icon-container cursor-pointer'><span className='icon-play3'></span></div>
                 </div>
             </div>
             <div className='flex-grow-1 mx-5 ps-5'>

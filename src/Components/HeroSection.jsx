@@ -4,8 +4,8 @@ export default function HeroSection() {
   
   return (
     <div className="heroContainer container-xl p-5 ">
-      <div className="row pt-5 d-flex text-white">
-        <div className="p-2 p-lg-5 py-lg-0 col-12 col-lg-7 align-self-center flex-grow-1">
+      <div className="row pt-lg-5 d-flex text-white">
+        <div className="p-2 p-lg-5 py-lg-0 my-3 col-12 col-lg-7 align-self-center flex-grow-1">
           <h1 className="hero-title-font">
             <span className="text-champions"></span>
           </h1>
@@ -82,10 +82,10 @@ export default function HeroSection() {
             in sync.
           </p>
           <div className="d-lg-flex">
-            <button className="btn-background btn btn-outline-light   my-4 my-lg-0 mx-lg-2 px-4 py-2 rounded-0 fw-bold border border-2">
+            <button className="btn-background btn btn-outline-light  my-3 my-md-0 mx-2 px-4 py-2 rounded-0 fw-bold border border-2" onClick={()=>alert("In progress..!")}>
               Free Trial
             </button>
-            <button className="btn-custom-outline btn btn-outline-light  rounded-0 px-3 py-2 mx-lg-2 fw-bold border border-2 ">
+            <button className="btn-custom-outline btn btn-outline-light  rounded-0 px-3 py-2 mx-2 fw-bold border border-2 " onClick={()=>alert("In progress..!")}>
               View demo
             </button>
           </div>

@@ -14,10 +14,10 @@ export default function CustomerExperienceSection() {
                 <h1 className='text-bottleGreen title-font'>The best customer experiences are built with Zendesk</h1>
                 <h5 className='text-bottleGreen py-4'>The companies you use, use Zendesk</h5>
                 <div className="py-3">
-                    <a className="card-item text-bottleGreen fw-bold overflow-hidden text-truncate pb-2">
+                    <a className="card-item text-bottleGreen fw-bold overflow-hidden text-truncate pb-2 cursor-pointer">
                     See all customers story
                     </a>
-                    <span className="fw-lighter icon-arrow-right" ></span>
+                    <span className="fw-lighter icon-arrow-right cursor-pointer" ></span>
                 </div>
             </div>
 

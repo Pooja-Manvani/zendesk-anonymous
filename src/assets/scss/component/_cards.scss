@@ -17,9 +17,14 @@
 
 .Promo-Card-container{
    width: 349px;
-   height: 299px; 
+   height: 300px;
    background-color: $smokeWhite;
 }
+// @media (min-width:1107px) {
+//     .Promo-Card-container{
+        
+//     }
+// }
 
 .promo-sticker{
     position: absolute;
@@ -74,7 +79,7 @@
 
 .customise-card{
     background-color: white;
-    padding: 4rem;
+    padding: 2rem;
     position: absolute;
     display: flex;
     flex-direction: column;

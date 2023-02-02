@@ -43,9 +43,9 @@ export default function UseCaseSection() {
             <h5 className='text-bottleGreen'>To make customers happy, you need conversational experiences—connected communication across any channel.</h5>
             <nav className=''>
                 <ul className='list-unstyled d-flex justify-content-center'>
-                    <li  className={"nav-item p-3 mx-2 fw-bold text-darker" +' '+(activeService && 'nav-border')}  onClick={getService} >SERVICE</li>
-                    <li className={"nav-item p-3 mx-2 fw-bold text-darker" +' '+(activeSales && 'nav-border')}  onClick={getSales} >SALES</li>
-                    <li className={"nav-item p-3 mx-2 fw-bold text-darker" +' '+(activeExperience && 'nav-border')}  onClick={getExperience} >EMPLOYEE EXPERIENCE</li>
+                    <li  className={"nav-item p-3 mx-2 fw-bold text-darker cursor-pointer" +' '+(activeService && 'nav-border')}  onClick={getService} >SERVICE</li>
+                    <li className={"nav-item p-3 mx-2 fw-bold text-darker cursor-pointer" +' '+(activeSales && 'nav-border')}  onClick={getSales} >SALES</li>
+                    <li className={"nav-item p-3 mx-2 fw-bold text-darker cursor-pointer" +' '+(activeExperience && 'nav-border')}  onClick={getExperience} >EMPLOYEE EXPERIENCE</li>
                 </ul>
             </nav>
         </div>

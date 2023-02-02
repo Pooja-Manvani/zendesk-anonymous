@@ -8,8 +8,8 @@ export default function GlobalFooter() {
         <div className='p-5 row justify-content-center'>
             <h1 className='fw-bold text-darker mb-4 col-7 text-center'>Champions of awesome free trials</h1>
             <div className='d-flex justify-content-center mb-3'>
-                <button className='btn-dark-bg btn fs-5 mx-4 px-4 py-2 rounded-0 fw-semibold' >Start a free trial</button>
-                <button className='btn-dark-outline btn fs-5 rounded-0 px-4 py-2 fw-semibold  ' >View demo</button>
+                <button className='btn-dark-bg btn fs-5 mx-4 px-4 py-2 rounded-0 fw-semibold' onClick={()=>alert("In progress..!")}>Start a free trial</button>
+                <button className='btn-dark-outline btn fs-5 rounded-0 px-4 py-2 fw-semibold  ' onClick={()=>alert("In progress..!")}>View demo</button>
             </div>
         </div>
     </div>
@@ -229,11 +229,11 @@ export default function GlobalFooter() {
                     </div>
                     
                     <div className='me-5 pe-5 d-flex'>
-                        <span className='icon-twitter icon-color fs-2 p-2'></span>
-                        <span className='icon-facebook icon-color fs-2 p-2'></span>
-                        <span className='icon-linkedin icon-color fs-2 p-2'></span>
-                        <span className='icon-youtube icon-color fs-2 p-2'></span>
-                        <span className='icon-instagram icon-color fs-2 p-2'></span>
+                        <span className='icon-twitter icon-color fs-2 p-2 cursor-pointer'></span>
+                        <span className='icon-facebook icon-color fs-2 p-2 cursor-pointer'></span>
+                        <span className='icon-linkedin icon-color fs-2 p-2 cursor-pointer'></span>
+                        <span className='icon-youtube icon-color fs-2 p-2 cursor-pointer'></span>
+                        <span className='icon-instagram icon-color fs-2 p-2 cursor-pointer'></span>
                     </div>
                 </div>
                 <div className='px-5 mx-5'>

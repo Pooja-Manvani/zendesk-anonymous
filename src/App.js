@@ -47,6 +47,9 @@ function App() {
       <ArticleSection />
       <CustomerExperienceSection />
       <GlobalFooter />
+      <div className='float-button-container'>
+        <button className=' float-button px-4 p-2 text-white me-4'><span className='icon-email me-2 fs-4 text-white' onClick={()=>alert("In Progress...!")}></span>Contact Sales</button>
+      </div>
     </div>
   );
 }

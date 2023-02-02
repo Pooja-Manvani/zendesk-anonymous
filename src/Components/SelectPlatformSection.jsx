@@ -6,7 +6,7 @@ export default function SelectPlatformSection() {
     <div className='wrapper platform-container position-relative ' >
         <img src={PlatformBG} alt='PlatformBG' className='overflow-hidden'></img>
         <div className='customise-card'>
-            <h1 className='mb-4 title-font'>Customise your customer experience</h1>
+            <h1 className='mb-4 text-darker fw-bold'>Customise your customer experience</h1>
             <p className='mb-4 text-bottleGreen'>Sunshine lets you customise and extend Zendesk to provide personalised experiences, 
                 help agents stay productive, and keep the entire business connected. Plus,
                  it is open and flexible, so you can adapt quickly to anything thrown your way.

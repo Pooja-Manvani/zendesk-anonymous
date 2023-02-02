@@ -12,13 +12,12 @@ export default function TourSection() {
               <p className=' text-center col-7'>The best way to learn about Zendesk is to experience it like a customer. See for yourself how Zendesk makes customer experience easy.</p>
               </div>
         </div>
-        <div className=' d-flex align-items-end flex-grow-1 justify-content-center position-relative ' id='person-msg-card'>
-            <img src={secondryBG} alt='secondry' className='homeBug-img position-relative'></img>
-
+        <div className=' d-flex align-items-end flex-grow-1 justify-content-center position-relative' id='person-msg-card'>
+            <img src={secondryBG} alt='secondry' className='homeBug-img position-relative' ></img>
             <div className='tour-info-card bg-white p-4' >
               <img src={msgPerson} alt='msg-person'></img>
               <h5 className='text-bottleGreen py-2'>See Zendesk in action.</h5>
-              <button className='px-4 py-1 fw- btn-dark-outline mx-5'>Start tour</button>
+              <button className='px-4 py-1 btn-dark-outline mx-5' onClick={()=>alert("In progess..!")}>Start tour</button>
             </div>
         </div>
       </div>
