@@ -3,9 +3,9 @@ import React from "react";
 export default function HeroSection() {
   
   return (
-    <div className="heroContainer container-xl p-5 ">
+    <div className="heroContainer container-xl p-lg-5 ">
       <div className="row pt-lg-5 d-flex text-white">
-        <div className="p-2 p-lg-5 py-lg-0 my-3 col-12 col-lg-7 align-self-center flex-grow-1">
+        <div className="p-2 p-lg-5 py-lg-0 my-3 my-lg-5 col-12 col-lg-7 align-self-center flex-grow-1">
           <h1 className="hero-title-font">
             <span className="text-champions"></span>
           </h1>
@@ -16,15 +16,7 @@ export default function HeroSection() {
                 <span className="text-of"></span>{" "}
               </h1>
               <div className="  ms-3">
-                <h1 className="hero-title-font">
-                  {/* <span className="text-roller-up">
-                      <span className="border-3 border-bottom border-white mb-3">customer</span>
-                      <span className="border-3 border-bottom border-white mb-3">no-hassle</span>
-                      <span className="border-3 border-bottom border-white mb-3">not waiting on</span>
-                      <span className="border-3 border-bottom border-white mb-3">social</span>
-                      <span className="border-3 border-bottom border-white mb-3">extra sauce</span>
-                      <span className="border-3 border-bottom border-white mb-3">actually having </span>
-                  </span> */}
+                <h1 className="hero-title-font ">
                   <span className="text-roller-up">
                     <span >
                       <span>customer</span>
@@ -50,7 +42,7 @@ export default function HeroSection() {
               </div>
             </div>
             <div>
-              <h1 className="hero-title-font border-bottom-3 border-white">
+              <h1 className="hero-title-font border-bottom-3 border-white ">
                 <span className=" text-roller-up">
                 <span>
                       <span >service</span>
@@ -75,17 +67,17 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="p-2 p-lg-5 col-12 col-lg-5 align-align-items-center">
+        <div className="p-2 mt-lg-4 p-lg-5 col-12 col-lg-5 align-items-center">
           <p className="p-2 fw-500 fs-5">
             Zendesk makes customer service better. We build software to meet
             customer needs, set your team up for success, and keep your business
             in sync.
           </p>
           <div className="d-lg-flex">
-            <button className="btn-background btn btn-outline-light  my-3 my-md-0 mx-2 px-4 py-2 rounded-0 fw-bold border border-2" onClick={()=>alert("In progress..!")}>
+            <button className="btn-background btn btn-outline-light   my-3 my-md-0 mx-2 px-4 py-2 rounded-0 fw-bold border border-2" onClick={()=>alert("In progress..!")}>
               Free Trial
             </button>
-            <button className="btn-custom-outline btn btn-outline-light  rounded-0 px-3 py-2 mx-2 fw-bold border border-2 " onClick={()=>alert("In progress..!")}>
+            <button className="btn-custom-outline btn btn-outline-light  rounded-0   px-3 py-2 mx-2 fw-bold border border-2 " onClick={()=>alert("In progress..!")}>
               View demo
             </button>
           </div>

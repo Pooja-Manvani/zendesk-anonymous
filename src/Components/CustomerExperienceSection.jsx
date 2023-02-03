@@ -7,10 +7,10 @@ export default function CustomerExperienceSection() {
   return (
     <>
     {/* Customer experience section  */}
-    <div className='experience-container shadow-sm d-flex align-content-center justify-content-center bg-light'>
-        <div className='d-flex inner-container my-5 py-5 align-self-center '>
+    <div className='experience-container my-3 shadow-sm d-lg-flex align-content-center justify-content-center bg-light'>
+        <div className='d-lg-flex my-lg-5 py-lg-5 align-self-center '>
 
-            <div className='info-conatiner mt-5 me-5'>
+            <div className='info-conatiner mt-lg-5 mt-3 me-lg-2'>
                 <h1 className='text-bottleGreen title-font'>The best customer experiences are built with Zendesk</h1>
                 <h5 className='text-bottleGreen py-4'>The companies you use, use Zendesk</h5>
                 <div className="py-3">
@@ -21,7 +21,7 @@ export default function CustomerExperienceSection() {
                 </div>
             </div>
 
-            <div className='p-5 flex-grow-1 position-relative '>
+            <div className='p-lg-5 flex-grow-1 d-none d-lg-block position-relative '>
                <img src={Person1} alt='person1' className='img-container-item1'></img>
                <img src={Person2} alt='person2' className='img-container-item2'></img>
                <img src={Person3} alt='person3' className='img-container-item3 mb-3'></img>
@@ -31,8 +31,8 @@ export default function CustomerExperienceSection() {
     {/* Recomanded Links section */}
     <div className='justify-content-center align-items-center d-flex'>
         <div className='d-flex link-container row'>
-        <h2 className='text-darker fw-bold text-nowrap col pe-5'>Recommended reading</h2>
-        <div className='col mb-5'>
+        <h2 className='text-darker fw-bold text-nowrap col pe-lg-5'>Recommended reading</h2>
+        <div className='col-lg col-12 mb-lg-5'>
             <ul className='list-unstyled'>
                 <li className='p-2'>
                     <a className='text-bottleGreen fw-bold text-link ' href='https://www.zendesk.com/blog/why-companies-should-invest-in-the-customer-experience/'>
@@ -52,7 +52,7 @@ export default function CustomerExperienceSection() {
                 </li>
             </ul>
         </div>
-        <div className='col'>
+        <div className='col-lg col-12'>
             <ul className='list-unstyled'>
                 <li className='p-2'>
                     <a className='text-bottleGreen fw-bold text-link ' href='https://www.zendesk.com/in/blog/cx-critical-new-digital-world-financial-services/'>

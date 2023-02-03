@@ -15,24 +15,59 @@
     }
 }
 
-.Promo-Card-container{
-   width: 349px;
-   height: 300px;
-   background-color: $smokeWhite;
-}
-// @media (min-width:1107px) {
-//     .Promo-Card-container{
-        
-//     }
+// .Promo-Card-container{
+//    width: 349px;
+//    height: 300px;
+//    background-color: $smokeWhite;
 // }
+// @media (max-width:1200px) {
+    .Promo-Card-container{
+        width: 349px;
+        height: 300px;
+        background-color: $smokeWhite;
+     }
+     .clip-img{
+        width: 500px;
+    }
+    .customise-card{
+        background-color: white;
+        padding: 3rem;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        right: 20%;
+        top: 35%;
+    }
+    .clip-icon-container{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(125, 196, 238);
+        opacity: 90%;
+        color: white;
+        height: 100px;
+        width: 150px;
+        top: 30%;
+        left: 35%;
+    }
+    .promo-sticker{
+        position: absolute;
+        right: -53px;
+        top: -35px;
+        height: 110px;
+        width: 110px;
+    }
 
-.promo-sticker{
-    position: absolute;
-    right: -53px;
-    top: -35px;
-    height: 110px;
-    width: 110px;
-}
+
+// .promo-sticker{
+//     position: absolute;
+//     right: -20px;
+//     top: -19px;
+//     height: 61px;
+//     width: 83px;
+// }
 
 .card-item:hover {
     color: $bottleGreen;
@@ -77,33 +112,34 @@
     }
 }
 
-.customise-card{
-    background-color: white;
-    padding: 2rem;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    right: 16%;
-}
+//  .customise-card{
+//     background-color: white;
+//     padding: 2rem;
+//     position: absolute;
+//     display: flex;
+//     flex-direction: column;
+//     width: 40%;
+//     right: 16%;
+//     top: 30%;
+// }
 
-.clip-img{
-    width: 500px;
-}
+// .clip-img{
+//     width: 300px;
+// }
 
-.clip-icon-container{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(125, 196, 238);
-    opacity: 90%;
-    color: white;
-    height: 100px;
-    width: 150px;
-    top: 30%;
-    left: 35%;
-}
+// .clip-icon-container{
+//     position: absolute;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: rgb(125, 196, 238);
+//     opacity: 90%;
+//     color: white;
+//     height: 100px;
+//     width: 150px;
+//     top: 20%;
+//     left: 25%;
+// }
 
 .clip-icon-container:hover{
     opacity: 70%;
@@ -116,13 +152,13 @@
     z-index: 20;
 }
 .img-container-item2{
-    left: 52%;
+    left: 82%;
     top: -7%;
     position: absolute;
 }
 .img-container-item3{
     position: absolute;
-    left: 51%;
+    left: 71%;
     top: 45%;
 }
 

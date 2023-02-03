@@ -1,13 +1,13 @@
 // Style for slider start
 .heroContainer {
     background-color: $bottleGreen;
-    height: 800px;
+    height: 600px;
 }
-@media (min-width: 768px) { 
-    .heroContainer{
-        height: 500px;
-    }
- }
+// @media (min-width: 768px) { 
+//     .heroContainer{
+//         height: 500px;
+//     }
+//  }
 
  .text-roller-up {
     color: $green;
@@ -31,7 +31,8 @@
 
 .text-roller-up :first-child{
     position: relative;
-    animation: spinnerUp 6s;
+    animation: spinnerUp 6s,
+    colorize 4s 6s;
     height: 100%;
     display: inline-block;
 }
@@ -176,43 +177,6 @@
     }
 }
 
-// .text-roller-down::before{
-//     content: 'service';
-//     color: $messBlue;
-//     animation: spinnerDown 5s,
-//     colorize 7s 6s;
-// }
-
-// @keyframes spinnerDown {
-//     0%{
-//         content: 'service';
-//         color: $messBlue;
-//     }
-//     15%{
-//         content: 'returns ';
-//         color: $green;
-//     }
-//     30%{
-//         content: 'hold forever';
-//         color: $Yellow;
-//     }
-//     45%{
-//         content: 'messaging ';
-//         color: $transWhite;
-//     }
-//     60%{
-//         content: 'on the side ';
-//         color: $kesariya;
-//     }
-//     75%{
-//         content: 'a nice day ';
-//         color: $messBlue;
-//     }
-//     100% {
-//         content: 'service';
-//         color: $messBlue;
-//     }
-// }
 
 .tour-wrapper {
     background-color: $secondaryBg ;
@@ -231,15 +195,29 @@
     align-items: center;
     
 }
-@media (min-width: 1400px) { 
+@media (min-width: 1200px) { 
     .wrapper{
         margin-left: 10rem;
         margin-right: 10rem;
     }
+    .title-wrapper{
+        width: 628px;
+    }
+
+    
+    .platform-container{
+        // margin-top: 12rem;
+        margin-bottom: 3rem;
+    }
+    .experience-container{
+        height: 618px;
+        padding-top: 5rem;
+    }
+   
+  
  }
 
 .title-wrapper{
-    width: 628px;
     padding: .75rem;
 }
 
@@ -250,20 +228,23 @@
     left: -80px;
 }
 
+.info-conatiner{
+    width: 500px;
+}
+
 .info-border-left {
     border-left: 2px solid lightgray;
 }
 
 .platform-container{
-    margin-top: 12rem;
-    margin-bottom: 3rem;
+    // margin-top: 12rem;
+    margin-bottom: 24rem;
 }
 
 .gartner-container{
     background-color: $skyblue;
     padding: 1.75rem;
     text-align: center;
-    width: 1104px;
 }
 
 .gartner-logo{
@@ -278,14 +259,9 @@
     width: 1104px;
 }
 
-.info-conatiner{
-    width: 400px;
-}
 
-.experience-container{
-    height: 618px;
-    padding-top: 5rem;
-}
+
+
 
 .link-container{
     margin-top: 5rem;

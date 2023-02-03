@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import { Nav } from 'react-bootstrap'
 
 export default function Header(props) {
-  console.log(props)
-                                     
+                                 
   const [hoverCompany,setHoverCompany] = useState(false);                                  
   const [hoverLang,setHoverLang] = useState(false);                  
   const [hoverProduct,setHoverProduct] = useState(false);                  

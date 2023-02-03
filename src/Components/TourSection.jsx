@@ -4,7 +4,7 @@ import msgPerson from '../assets/images/messaging-person-phone.webp'
 
 export default function TourSection() {
   return (
-    <div className='tour-wrapper d-none d-lg-flex  p-5 flex-column'>
+    <div className='tour-wrapper d-none d-lg-flex  p-lg-5 flex-column'>
       <div className=' position-relative'>
         <div className='text-center  container d-flex flex-column justify-self-center align-content-center px-5 '>
             <h1 className='title-font mb-4'>Take a quick tour.</h1>
