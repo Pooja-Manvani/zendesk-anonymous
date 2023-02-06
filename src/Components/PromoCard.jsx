@@ -16,7 +16,7 @@ export default function PromoCard() {
     <div
       key={data.id}
       className={
-        "Promo-Card-container m-3 p-4 d-flex flex-column justify-content-between position-relative" +' '+ (data.id === 1 ? 'box-green': data.id === 2 ? 'box-blue' : 'box-orange')
+        "Promo-Card-container m-3 p-4 d-flex flex-column justify-content-between position-relative shadow" +' '+ (data.id === 1 ? 'box-green': data.id === 2 ? 'box-blue' : 'box-orange')
       }
     >
       <div>
