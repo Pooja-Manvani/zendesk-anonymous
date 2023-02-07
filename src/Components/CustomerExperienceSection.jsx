@@ -8,10 +8,10 @@ export default function CustomerExperienceSection() {
     <>
     {/* Customer experience section  */}
     <div className='experience-container my-3 shadow-sm d-lg-flex align-content-center justify-content-center bg-light'>
-        <div className='d-lg-flex my-lg-5 py-lg-5 align-self-center '>
+        <div className='d-lg-flex  my-lg-5 py-lg-5 align-self-center '>
 
-            <div className='info-conatiner mt-lg-5 mt-3 me-lg-2'>
-                <h1 className='text-bottleGreen title-font'>The best customer experiences are built with Zendesk</h1>
+            <div className='info-conatiner mx-3 mt-xl-5 mt-3 ms-md-5 ms-lg-0 me-lg-2 me-xl-5'>
+                <h1 className='text-bottleGreen title-font pt-2'>The best customer experiences are built with Zendesk</h1>
                 <h5 className='text-bottleGreen py-4'>The companies you use, use Zendesk</h5>
                 <div className="py-3">
                     <a className="card-item text-bottleGreen fw-bold overflow-hidden text-truncate pb-2 cursor-pointer">
@@ -21,7 +21,7 @@ export default function CustomerExperienceSection() {
                 </div>
             </div>
 
-            <div className='p-lg-5 flex-grow-1 d-none d-lg-block position-relative '>
+            <div className='p-xl-5 flex-grow-1 d-none d-lg-block position-relative '>
                <img src={Person1} alt='person1' className='img-container-item1'></img>
                <img src={Person2} alt='person2' className='img-container-item2'></img>
                <img src={Person3} alt='person3' className='img-container-item3 mb-3'></img>
@@ -29,10 +29,10 @@ export default function CustomerExperienceSection() {
         </div>
     </div>
     {/* Recomanded Links section */}
-    <div className='justify-content-center align-items-center d-flex'>
-        <div className='d-flex link-container row'>
-        <h2 className='text-darker fw-bold text-nowrap col pe-lg-5'>Recommended reading</h2>
-        <div className='col-lg col-12 mb-lg-5'>
+    <div className='row justify-content-center align-items-center d-flex'>
+        <div className=' col-xl-11 col-xxl-7 d-lg-flex p-3 px-md-5 link-container row-xl'>
+        <h2 className='text-darker fw-bold text-nowrap col pe-md-2 pe-xl-5'>Recommended reading</h2>
+        <div className='col-lg col-12 '>
             <ul className='list-unstyled'>
                 <li className='p-2'>
                     <a className='text-bottleGreen fw-bold text-link ' href='https://www.zendesk.com/blog/why-companies-should-invest-in-the-customer-experience/'>

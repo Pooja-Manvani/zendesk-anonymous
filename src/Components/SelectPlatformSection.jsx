@@ -3,8 +3,8 @@ import PlatformBG from '../assets/images/bg-customize.webp'
 
 export default function SelectPlatformSection() {
   return (
-    <div className='my-5 pt-5  position-relative text-center' >
-        <img src={PlatformBG} alt='PlatformBG' className='w-75 overflow-hidden'></img>
+    <div className='my-3 pt-lg-5  position-relative text-center' >
+        <img src={PlatformBG} alt='PlatformBG' className='platformbg-img overflow-hidden'></img>
         <div className='customise-card text-start shadow'>
             <h1 className='mb-4 text-darker fw-bold'>Customise your customer experience</h1>
             <p className='mb-4 text-bottleGreen'>Sunshine lets you customise and extend Zendesk to provide personalised experiences, 

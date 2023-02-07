@@ -50,8 +50,8 @@ export default function UseCaseSection() {
             </nav>
         </div>
         {UseCase.map((data, index) => (
-        <div className='row container-lg mb-5 mx-lg-5 px-lg-5' key={index}>
-            <div className='col-lg-6 col-12 pt-1 px-lg-5'>
+        <div className='row container-xl mb-5 mx-xl-5 px-xl-5' key={index}>
+            <div className='col-lg-6 col-xl-5 col-12 pt-1 px-lg-5'>
                 <div className='w-lg-75 pt-1'>
                     <h2 className='fw-bold text-darker text-start pb-4'> {data.title} </h2>
                     <p className='pb-2 text-bottleGreen text-start fw-ligter'>
@@ -74,8 +74,8 @@ export default function UseCaseSection() {
                     </div>
                 </div>
             </div>
-            <div className='col-lg-6 col-12 px-3 pt-3 pb-5 pb-lg-0 position-relative'>
-                <img src={require(`../assets/images/${data.BGimage}`)} alt='BGcase' className='lower-image-usecase overflow-hidden pb-4 w-100 w-lg-0' ></img>
+            <div className='col-lg-6 col-xl-7 col-12 px-3 pt-3 pb-md-5 pb-lg-0 position-relative'>
+                <img src={require(`../assets/images/${data.BGimage}`)} alt='BGcase' className='lower-image-usecase overflow-hidden pb-sm-4 w-75' ></img>
                 <img src={require(`../assets/images/${data.upperimage}`)} alt='screenBGcase' className='upper-image-usecase overflow-hidden' ></img>
             </div>
         </div>

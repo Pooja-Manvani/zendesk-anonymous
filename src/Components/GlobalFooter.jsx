@@ -5,22 +5,22 @@ export default function GlobalFooter() {
     <>
     {/* Proactive-offer section. */}
     <div className='footer-inner-container d-lg-flex justify-content-center align-items-center'>
-        <div className='p-lg-5 row justify-content-center'>
-            <h1 className='fw-bold text-darker mb-4 col-7 text-center'>Champions of awesome free trials</h1>
-            <div className='d-flex justify-content-center mb-3'>
+        <div className='p-lg-5 row-lg justify-content-center p-3'>
+            <h1 className='fw-bold title-font text-darker m-auto col-7 text-center'>Champions of awesome free trials</h1>
+            <div className='d-flex justify-content-center py-3'>
                 <button className='btn-dark-bg btn fs-lg-5 mx-lg-4 mx-2 px-lg-4 py-2 rounded-0 fw-semibold' onClick={()=>alert("In progress..!")}>Start a free trial</button>
                 <button className='btn-dark-outline btn fs-lg-5 rounded-0 px-lg-4 py-2 fw-semibold  ' onClick={()=>alert("In progress..!")}>View demo</button>
             </div>
         </div>
     </div>
     {/* Global footer section */}
-    <div className='d-lg-flex d-none justify-content-center align-items-center p-lg-5 m-lg-5 pb-0 mb-0 '>
-        <div className='d-flex flex-column mx-lg-5 px-lg-5 '>
-            <div className='justify-content-start mx-lg-5 px-lg-5'>
+    <div className='d-lg-flex d-none justify-content-center align-items-center px-xxl-5 mx-xxl-5 mt-md-5 '>
+        <div className='d-flex flex-column mx-xxl-5 px-xxl-5 '>
+            <div className='justify-content-start mx-lg-5 px-xl-5'>
                 <span className='icon-zendesk p-3 fs-1 text-darker'></span>
             </div>
 
-            <div className='row mx-lg-5 px-lg-5 border-bottom border-2 border-lightgray'>
+            <div className='row mx-xl-5 px-xl-5 border-bottom border-2 border-lightgray'>
                     <div className='col-2 p-3'>
                         <h4 className='text-darker text-wrap fw-bold'>
                             Champions <br></br>of customer service
@@ -213,10 +213,10 @@ export default function GlobalFooter() {
     </div>
 
         {/* Subscribe & disclaimation section */}
-        <div className='d-lg-flex justify-content-center align-items-center px-lg-5 py-4 mx-lg-5 '>
-            <div className='mx-lg-5 px-lg-5'>
-                <div className='mx-lg-5 px-lg-5 d-lg-flex justify-content-between'>
-                    <div className='ms-lg-5 ps-lg-5'>
+        <div className='d-lg-flex justify-content-center align-items-center px-xl-5 py-4 mx-xl-5 '>
+            <div className='mx-xl-5 px-xl-5'>
+                <div className='mx-xl-5 px-xl-5 d-lg-flex justify-content-between'>
+                    <div className='ms-xl-5 text-center text-lg-start ps-lg-5'>
                         <label className='text-start fs-4 fw-bold text-bottleGreen '>Enter the fold</label>
                         <p className='text-bottleGreen'>Subscribe to our newsletter.</p>
                     </div>
@@ -228,7 +228,7 @@ export default function GlobalFooter() {
                         </div>
                     </div>
                     
-                    <div className='me-lg-5 pe-lg-5 d-lg-flex d-none'>
+                    <div className='me-xl-5 pe-lg-5 d-lg-flex d-none'>
                         <span className='icon-twitter icon-color fs-2 p-2 cursor-pointer'></span>
                         <span className='icon-facebook icon-color fs-2 p-2 cursor-pointer'></span>
                         <span className='icon-linkedin icon-color fs-2 p-2 cursor-pointer'></span>
@@ -236,8 +236,8 @@ export default function GlobalFooter() {
                         <span className='icon-instagram icon-color fs-2 p-2 cursor-pointer'></span>
                     </div>
                 </div>
-                <div className='px-lg-5 mx-lg-5'>
-                        <ul className='list-unstyled d-none d-lg-flex py-2 px-lg-5 mx-lg-5'>
+                <div className='px-xl-5 mx-xl-5'>
+                        <ul className='list-unstyled d-none d-lg-flex py-2 px-lg-5 mx-xl-5'>
                             <li className='p-3 ps-0'>
                                 <span className='service-link-text'>Zendesk for service</span>
                             </li>
@@ -255,8 +255,8 @@ export default function GlobalFooter() {
                             </li>
                         </ul>
                 </div>
-                <div className='mx-lg-5 mx-3 pt-3 px-lg-5'>
-                    <p className='conatiner small text-muted  px-lg-5 mx-lg-5'>
+                <div className='mx-xl-5 mx-3 pt-3 px-xl-5'>
+                    <p className='conatiner small text-muted  px-md-5 mx-xl-5'>
                     Gartner, Critical Capabilities for the CRM Customer Engagement Center, 8 June 2020, Nadine LeBlanc, 
                     Brian Manusama <br></br>Gartner does not endorse any vendor, product or service depicted in its research publications and
                     does not advise technology users to select only those vendors with the highest ratings or other designations. 

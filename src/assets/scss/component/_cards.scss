@@ -15,30 +15,15 @@
     }
 }
 
-// .Promo-Card-container{
-//    width: 349px;
-//    height: 300px;
-//    background-color: $smokeWhite;
-// }
-// @media (max-width:1200px) {
     .Promo-Card-container{
-        width: 349px;
+        width: 300px;
         height: 300px;
         background-color: $smokeWhite;
      }
      .clip-img{
-        width: 500px;
+        width: 300px;
     }
-    .customise-card{
-        background-color: white;
-        padding: 3rem;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        width: 35%;
-        right: 20%;
-        top: 35%;
-    }
+   
     .clip-icon-container{
         position: absolute;
         display: flex;
@@ -49,25 +34,11 @@
         color: white;
         height: 100px;
         width: 150px;
-        top: 30%;
-        left: 35%;
+        top: 20%;
+        left: 30%;
     }
-    .promo-sticker{
-        position: absolute;
-        right: -53px;
-        top: -35px;
-        height: 110px;
-        width: 110px;
-    }
+    
 
-
-// .promo-sticker{
-//     position: absolute;
-//     right: -20px;
-//     top: -19px;
-//     height: 61px;
-//     width: 83px;
-// }
 
 .card-item:hover {
     color: $bottleGreen;
@@ -90,15 +61,6 @@
     margin-left: .75rem;
 }
 
-
-// .lower-image-usecase{
-//     width: 533.8px;
-//     bottom: 0;
-//     left: 0;
-//     top: 15px;
-//     animation: grow 4s forwards;
-// }
-
 @keyframes grow {
     from{
         bottom: 0;
@@ -112,34 +74,17 @@
     }
 }
 
-//  .customise-card{
-//     background-color: white;
-//     padding: 2rem;
-//     position: absolute;
-//     display: flex;
-//     flex-direction: column;
-//     width: 40%;
-//     right: 16%;
-//     top: 30%;
-// }
+ .customise-card{
+    background-color: white;
+    padding: 1rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    right: 10%;
+    top: 30%;
+}
 
-// .clip-img{
-//     width: 300px;
-// }
-
-// .clip-icon-container{
-//     position: absolute;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background-color: rgb(125, 196, 238);
-//     opacity: 90%;
-//     color: white;
-//     height: 100px;
-//     width: 150px;
-//     top: 20%;
-//     left: 25%;
-// }
 
 .clip-icon-container:hover{
     opacity: 70%;
@@ -161,4 +106,115 @@
     left: 71%;
     top: 45%;
 }
+.promo-sticker{
+    position: absolute;
+    right: -53px;
+    top: -35px;
+    height: 110px;
+    width: 110px;
+    display: block;
+}
 
+@media (min-width: 576px){
+    .customise-card{
+        width: 70%;
+        right: 16%;
+    }
+    .Promo-Card-container{
+        width: 349px;
+     }
+    .clip-icon-container{
+        left: 38%;
+    }
+}
+@media (min-width: 768px){
+    .customise-card{
+        background-color: white;
+        padding: 2rem;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 42%;
+        right: 20%;
+        top: 41%;
+    }
+
+    .clip-img{
+        width: 500px;
+    }
+
+    .clip-icon-container{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(125, 196, 238);
+        opacity: 90%;
+        color: white;
+        height: 100px;
+        width: 150px;
+        top: 30%;
+        left: 35%;
+    }
+}
+
+@media (min-width: 992px){
+    .img-container-item1{
+        position: sticky;
+        z-index: 20;
+        top: 25%;
+        width: 75%;
+    }
+    .img-container-item2{
+    height: 45%;
+    left: 67%;
+    top: -17%;
+    position: absolute;
+    }
+
+    .img-container-item3{
+        position: absolute;
+        left: 55%;
+        top: 55%;
+        height: 60%;
+    }
+
+    .customise-card{
+    background-color: white;
+    padding: 2rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    right: 15%;
+    top: 25%;
+    }
+}
+
+@media (min-width: 1450px){
+    .customise-card{
+    padding: 4rem;
+    width: 37%;
+    right: 17%;
+    top: 35%;
+    }
+
+    .img-container-item1{
+        top: 25%;
+        position: sticky;
+        z-index: 20;
+        width: auto;
+    }
+    .img-container-item2{
+        left: 82%;
+        top: -7%;
+        position: absolute;
+        height: auto;
+    }
+    .img-container-item3{
+        position: absolute;
+        left: 71%;
+        top: 45%;
+        height: auto;
+    }
+}

@@ -43,7 +43,7 @@ export default function PromoCard() {
         <span className="fw-lighter icon-arrow-right cursor-pointer" ></span>
       </div>
       {data.id === 3 && (
-        <img src={superImg} alt="" className="promo-sticker"></img>
+        <img src={superImg} alt="" className="promo-sticker d-none d-lg-block"></img>
       )}
     </div>
   ));

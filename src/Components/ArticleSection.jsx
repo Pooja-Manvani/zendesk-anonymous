@@ -5,21 +5,21 @@ import Clip from '../assets/images/clip.webp'
 
 export default function ArticleSection() {
   return (
-    <div className='wrapper mx-lg-5 px-lg-5 d-lg-flex flex-column'>
+    <div className='wrapper outer-container d-lg-flex flex-column'>
         {/* Gartner section */}
-        <div className='w-75 mt-5 gartner-container shadow'>
+        <div className='w-75 mt-lg-5 gartner-container shadow'>
             <h2 className='text-darker fw-bold mb-4'>#1 in Digital Customer Service use case by</h2>
             <img src={GartnerLogo} alt='Logo' className='gartner-logo'></img>
         </div>
         {/* Article section */}
-        <div className='article-container d-lg-flex py-lg-5 mx-lg-5'>
-            <div className='my-lg-5 my-2 pt-4 me-lg-5 ps-lg-1'>
+        <div className=' d-lg-flex container-xl py-3 py-lg-5 mx-xl-5'>
+            <div className='my-lg-5 my-2 py-4 me-xl-5 ps-lg-5'>
                 <div className='position-relative text-center'>
                     <img src={Clip} alt='Clip' className='clip-img'></img>
                     <div className='clip-icon-container cursor-pointer'><span className='icon-play3'></span></div>
                 </div>
             </div>
-            <div className='flex-grow-1 mx-lg-5 mx-3 ps-lg-5'>
+            <div className='flex-grow-1 mx-md-5 mx-3 ps-xl-5 pt-xl-5'>
                 <img src={DevLogo} alt='DevLogo' className='py-3'></img>
                 <p className='fw-semibold text-bottleGreen my-4 fs-lg-5'>“Zendesk gave us the best practices we needed right out of the box to manage customer support for all of our
                     acquired businesses from one central platform. As a result, our customer satisfaction across products went up from

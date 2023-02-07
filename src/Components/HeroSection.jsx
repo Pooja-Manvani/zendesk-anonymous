@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <div className="heroContainer container-xl p-lg-5 ">
       <div className="row pt-lg-5 d-flex text-white">
-        <div className="p-2 p-lg-5 py-lg-0 my-3 my-lg-5 col-12 col-lg-7 align-self-center flex-grow-1">
+        <div className="p-2 p-md-5 py-lg-0 my-3 my-lg-5 col-12 col-lg-7 align-self-center flex-grow-1">
           <h1 className="hero-title-font">
             <span className="text-champions"></span>
           </h1>
@@ -67,7 +67,7 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="p-2 mt-lg-4 p-lg-5 col-12 col-lg-5 align-items-center">
+        <div className="p-2 mt-lg-4 p-md-5 col-12 col-lg-5 align-items-center">
           <p className="p-2 fw-500 fs-5">
             Zendesk makes customer service better. We build software to meet
             customer needs, set your team up for success, and keep your business

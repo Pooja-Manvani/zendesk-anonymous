@@ -195,26 +195,6 @@
     align-items: center;
     
 }
-@media screen and (min-width: 1200px) { 
-    .wrapper{
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-    .title-wrapper{
-        width: 628px;
-    }
-
-    
-    .platform-container{
-        margin-bottom: 3rem;
-    }
-    .experience-container{
-        height: 618px;
-        padding-top: 5rem;
-    }
-   
-  
- }
 
 .title-wrapper{
     padding: .75rem;
@@ -224,13 +204,11 @@
 .upper-image-usecase {
     z-index: 10;
     position: absolute;
-    top: 265px;
-    left: -17px;
+    top: 193px;
+    left: 8px;
     height: 50%;
 }
-.info-conatiner{
-    width: 500px;
-}
+
 
 .info-border-left {
     border-left: 2px solid lightgray;
@@ -250,23 +228,8 @@
     height: 42px;
 }
 
-.article-container{
-    width: 1104px;
-}
-
-.inner-container{
-    width: 1104px;
-}
-
-
-
-
-
-.link-container{
-    margin-top: 5rem;
-    padding-top: 5rem;
-    border-top: 2px solid lightgray;
-    width: 1104px;
+.outer-container{
+    padding-top: 20rem;
 }
 
 .footer-inner-container{
@@ -286,11 +249,90 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 986px) {
-    .upper-image-usecase{
-            z-index: 10;
-            position: absolute;
-            top: 445px;
-            left: -80px;
-        }
+.platformbg-img{
+    width: 100%;
 }
+@media (min-width: 576px) {
+    .upper-image-usecase{
+        top: 333px;
+        left: 8px;
+        height: 50%;
+    }
+
+    .outer-container{
+        padding-top: 9rem;
+    }
+}
+@media (min-width: 768px) { 
+    .upper-image-usecase{
+        top: 426px;
+        left: 6px;
+    }
+
+    .outer-container{
+        padding-top: 16rem;
+    }
+
+    .info-conatiner{
+        width: 500px;
+    }
+ }
+
+ @media (min-width: 992px) {
+    .upper-image-usecase{
+        top: 285px;
+        left: 6px;
+    }
+
+    .outer-container{
+        padding-top: 0rem;
+    }
+
+    .info-conatiner{
+        width: 465px;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    .upper-image-usecase{
+        top: 372px;
+        left: -7px;
+    }
+    
+    .title-wrapper{
+        width: 628px;
+    }
+
+    .platformbg-img{
+        width: 75%;
+    }
+    
+    .platform-container{
+        margin-bottom: 3rem;
+    }
+    .experience-container{
+        height: 618px;
+        padding-top: 5rem;
+    }
+    
+    .link-container{
+        margin-top: 5rem;
+        padding-top: 5rem;
+        border-top: 2px solid lightgray;
+    }
+    
+ }
+ @media (min-width: 1400px) {
+    .wrapper{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .upper-image-usecase{
+        top: 390px;
+        left: -6px;
+        height: auto;
+ }
+
+}
+
+ 

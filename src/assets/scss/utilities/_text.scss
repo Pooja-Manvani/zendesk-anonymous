@@ -20,6 +20,11 @@
     .hero-title-font{
         font-size: 2.5rem;
     }
+    .title-font{
+        font-size: 2.75rem;
+        font-weight: 700;
+        color: $fontDrak;
+     }
  }
 
 // Large devices (desktops, 992px and up)
@@ -47,7 +52,7 @@
  }
 
  .title-font{
-    font-size: 2.75rem;
+    // font-size: 1.75rem;
     font-weight: 700;
     color: $fontDrak;
  }
