@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Nav } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
 
 export default function Header(props) {
                                  
@@ -52,12 +53,13 @@ export default function Header(props) {
     setHoverResource(false)
   }
   const wapperHeader = `wrapper-header + ${props.showHeader}`
+  const navigate = useNavigate();
   return (
     <div className={wapperHeader} >
     <div className=' container-xl d-lg-flex d-none flex-column px-xl-5 position-relative'>
         <Nav className='sub-nav flex-grow-1 px-5' >
             <ul className='d-flex justify-content-end pt-2' >
-            <li className='list-unstyled px-1 underline-hover nav-item-font cursor-pointer '  >Sign in</li> 
+            <li className='list-unstyled px-1 underline-hover nav-item-font cursor-pointer ' onClick={()=>navigate('/signin')} >Sign in</li> 
                 
                 <li className='list-unstyled px-2 underline-hover nav-item-font hover-text-white cursor-pointer '  >Product Support</li> 
                 <li className='list-unstyled px-2 underline-hover nav-item-font cursor-pointer '  onMouseEnter={handleCompanyEnter} onMouseLeave={handleCompanyLeave} >Company</li> 

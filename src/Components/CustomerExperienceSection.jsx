@@ -29,7 +29,7 @@ export default function CustomerExperienceSection() {
         </div>
     </div>
     {/* Recomanded Links section */}
-    <div className='row justify-content-center align-items-center d-flex'>
+    <div className='row m-0 justify-content-center align-items-center d-flex'>
         <div className=' col-xl-11 col-xxl-7 d-lg-flex p-3 px-md-5 link-container row-xl'>
         <h2 className='text-darker fw-bold text-nowrap col pe-md-2 pe-xl-5'>Recommended reading</h2>
         <div className='col-lg col-12 '>
